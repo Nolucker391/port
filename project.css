@@ -46,6 +46,19 @@
     display: flex;
     flex-direction: row-reverse;
     /*gap: 10px;*/
+    position: relative;
+    overflow: hidden; /* Обрезаем все, что выходит за пределы блока */
+}
+
+.first-box::before {
+    content: "";
+    position: absolute;
+    top: 87%; /* Размещаем полоску по середине блока */
+    left: 3px; /* Оставляем отступ от левого края, чтобы полоска не выходила за пределы границ */
+    width: calc(100% - 6px); /* Ширина полоски будет немного меньше ширины блока (с учетом border) */
+    height: 3px; /* Высота полоски */
+    background-color: rgba(255, 255, 255, 0.42); /* Цвет полоски */
+    z-index: 1; /* Полоска будет поверх фона, но под изображением */
 }
 
 .about-text {
@@ -53,7 +66,7 @@
     /*font-family: 'Londrina Shadow', cursive;*/
     font-family: 'Luminari', serif;
 
-    padding-left: 20px;
+    padding-left: 40px;
 
     font-size: 20px;
     color: white;
@@ -67,6 +80,11 @@
     align-items: center;
 }
 
+.about-text p {
+    color: #37eacf;
+
+}
+
 .about-text h2 {
     font-family: 'Major Mono Display', sans-serif;
     font-size: 50px;
@@ -74,6 +92,8 @@
     /*display: flex;*/
     /*text-align: right;*/
     transform: translateY(-40px);
+    /*font-weight: bold; !* Добавляем жирное начертание *!*/
+
 
 }
 
@@ -109,18 +129,50 @@
     margin-right: 10px; /* Отступ между иконкой и текстом */
 }
 
+
+/*.first-box img {*/
+/*    !*padding: 20px;*!*/
+/*    border-radius: 25px;*/
+/*    !*width: 0%;*!*/
+/*    width: 600px;*/
+/*    height: 300px;*/
+/*    display: flex;*/
+/*    padding-top: 100px;*/
+/*    padding-left: 20px;*/
+/*    position: relative;*/
+/*}*/
+
+
+
 .first-box img {
     /*padding: 20px;*/
     border-radius: 25px;
     /*width: 0%;*/
-    width: 600px;
+    width: 510px;
     height: 300px;
     display: flex;
     padding-top: 100px;
     padding-left: 20px;
+    position: relative;
+    z-index: 1; /* Изображение будет поверх видео */
+}
+.image-video-container {
+    position: relative;
+    width: 500px;  /* Размер контейнера */
+    height: 300px; /* Размер контейнера */
+
 }
 
-
+.background-video {
+    position: absolute;
+    top: 18vh;
+    left: 0;
+    width: 400px;
+    height: 230px;
+    object-fit: cover;
+    transform: translateX(80px);
+    z-index: -1; /* Видео будет на фоне */
+}
 
 
 

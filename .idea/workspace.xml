@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd3e3c25-83a1-4bff-b416-3bf262f34f7d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/almir.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Itachi-Uchiha-Moonlight-Killer.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/coding.MOV" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/macbook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/me2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+    <list default="true" id="bd3e3c25-83a1-4bff-b416-3bf262f34f7d" name="Changes" comment="done">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/almir.html" beforeDir="false" afterPath="$PROJECT_DIR$/almir.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/мак-VEED.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.css" beforeDir="false" afterPath="$PROJECT_DIR$/project.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +25,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Nolucker391"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Nolucker391/port.git",
+    "accountId": "b74bf4e3-942c-4ee2-858b-37722e56772c"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2sGOZ7WUDJZgf0hsgVoC6r6sVxp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -43,7 +52,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "disable.download.node.interpreter.editor.notification": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/skillbox/WebstormProjects/portfolio/assets",
+    "last_opened_file_path": "/Users/skillbox/WebstormProjects/port/assets",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -57,6 +66,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/fonts" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -66,7 +76,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.157" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.120" />
       </set>
     </attachedChunks>
   </component>
@@ -79,10 +89,24 @@
       <option name="presentableId" value="Default" />
       <updated>1738078497442</updated>
       <workItem from="1738078498506" duration="8305000" />
+      <workItem from="1738152261118" duration="17868000" />
     </task>
+    <task id="LOCAL-00001" summary="done">
+      <option name="closed" value="true" />
+      <created>1738167479845</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738167479845</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="done" />
+    <option name="LAST_COMMIT_MESSAGE" value="done" />
   </component>
 </project>
