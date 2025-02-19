@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Наклонное Фото в Бок</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #111;
+    }
+
+    .photo {
+      display: block;
+      width: 300px;
+      height: auto;
+      border-radius: 15px;
+      box-shadow:
+              inset 0 5px 10px rgba(0, 0, 0, 0.6), /* Внутренняя тень для проваливания */
+              0 10px 15px rgba(0, 0, 0, 0.5),      /* Внешняя тень для глубины */
+              0 0 15px rgba(0, 255, 255, 0.6),    /* Голубое неоновое свечение */
+              0 0 30px rgba(0, 255, 255, 0.4),
+              0 0 45px rgba(0, 255, 255, 0.2);
+      transform: perspective(800px) rotateY(-20deg); /* Наклон вбок */
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .photo:hover {
+      transform: perspective(800px) rotateY(-5deg) scale(1.05); /* Легкий подъем и выравнивание */
+      box-shadow:
+              inset 0 5px 10px rgba(0, 0, 0, 0.6),
+              0 20px 25px rgba(0, 0, 0, 0.7),
+              0 0 25px rgba(0, 255, 255, 0.8),
+              0 0 40px rgba(0, 255, 255, 0.6),
+              0 0 60px rgba(0, 255, 255, 0.4);
+    }
+  </style>
+</head>
+<body>
+<img class="photo" src="1.png" alt="Фотография">
+</body>
+</html>

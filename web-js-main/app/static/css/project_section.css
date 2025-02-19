@@ -1,0 +1,74 @@
+.jobs-section {
+    width: 100%;
+    height: 100%;
+    /*margin: 100px;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    position: relative;
+    background: green;
+    overflow: hidden;
+}
+
+.jobs-section h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #ffffff;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+.content-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    position: relative;
+    max-width: 80%;
+    margin: 0 auto;
+    opacity: 0; /* Скрыто по умолчанию */
+    transform: translateY(50px);
+    animation: slideIn 1.2s ease-out forwards;
+}
+
+.text-box {
+    flex: 1;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 400px;
+    animation: fadeInLeft 1s ease-out forwards;
+}
+
+.works-box video {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Чтобы видео заполнило весь блок */
+    border-radius: 15px; /* Закругляем углы */
+    /*transform: scale(0.47);*/
+    /*transition: transform 1s ease-out; !* Плавное увеличение *!*/
+}
+
+.works-box.scroll-zoom video {
+    transform: scale(2); /* Увеличиваем изображение */
+}
+
+
+.jobs-section p {
+    font-size: 12px;
+}
+
+.jobs-section h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+    font-size: 100px;
+    max-width: 1150px;
+    text-align: center;
+    margin: 25px 0;
+    text-transform: uppercase;
+}

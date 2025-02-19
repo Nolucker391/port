@@ -1,0 +1,32 @@
+
+/*.typed-text {*/
+/*    display: inline-block;*/
+/*    white-space: nowrap;*/
+/*    overflow: hidden;*/
+/*    !*border-right: 2px solid rgba(255, 255, 255, 0.7);*!*/
+/*    width: 0; !* Изначальная ширина 0 *!*/
+/*    animation: typing 2s steps(18, end) forwards, blink 0.5s step-end infinite;*/
+/*    animation-delay: var(--delay); !* Индивидуальная задержка *!*/
+
+/*}*/
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%; /* Полностью печатает текст */
+    }
+}
+
+@keyframes blink {
+    from {
+        border-right-color: rgba(255, 255, 255, 0.7);
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+
+

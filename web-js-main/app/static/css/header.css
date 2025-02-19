@@ -1,0 +1,36 @@
+header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 40px;
+    z-index: 999;
+    background-color: #4b4b4b5b;
+    backdrop-filter: blur(10px);
+}
+
+.head-right {
+    display: flex;
+}
+
+.head-right a {
+    text-decoration: none;
+    padding: 25px;
+    color: white;
+    font-size: 15px;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8),
+    0 0 10px rgba(255, 255, 255, 0.6),
+    0 0 15px rgba(255, 255, 255, 0.4); /* Эффект свечения */
+    transition: text-shadow 0.3s ease, color 0.3s ease; /* Анимация изменений */
+}
+
+.head-right a:hover {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 1),
+    0 0 20px rgba(255, 255, 255, 0.8),
+    0 0 30px rgba(255, 255, 255, 0.6);
+    color: #ffffff; /* Дополнительный эффект яркости */
+    text-decoration: none;
+}
